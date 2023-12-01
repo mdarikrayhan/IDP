@@ -39,6 +39,5 @@ For the OS we used windows 11. We used the following tools to set up the develop
 The platfrom tools need to be placed at C:\adb and for the MTK Client we need to install the <a href="https://www.python.org/downloads/">Python</a> ,<a href="https://git-scm.com/downloads">Git</a> and <a href="https://github.com/daynix/UsbDk/releases/">USB DK</a>. 
 
 #### 5.2.2. Unlocking the bootloader
--Step 1: Do a full backup of your device using 
+- Step 1: Do a full backup of your device using 
 <a href="https://github.com/mdarikrayhan/IDP/blob/main/Required%20Software/SP_Flash_Tool_v5.1924_Win.zip">SP Flash Tool v5.1924</a>
-
