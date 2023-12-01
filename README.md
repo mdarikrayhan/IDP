@@ -44,7 +44,7 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 
 - Step 2: The firmware for this procedure can be downloaded <a href="https://sourceforge.net/projects/fihsw-mtk/files/WSP/HCTSW_WSP-1680-0-00WW-B01_600WW_9_20191005_huaqin_ZAL1670.full.lzma2.d056631a.7z/download">here</a>
 
-- Step 3: Do backup of of these images from the firmware using altunlock-MT6761_Android_scatter.txt
+- Step 3: Do backup of of these images from the phone using "altunlock-MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
   - nvcfg.img
   - nvram.img
   - proinfo.img
@@ -52,3 +52,5 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
   - protect2.img
 
 - Step 4: 
+
+
