@@ -35,7 +35,7 @@ For the OS we used windows 11. We used the following tools to set up the develop
 - <a href="https://xdaforums.com/t/official-tool-windows-adb-fastboot-and-drivers-15-seconds-adb-installer-v1-4-3.2588979/">15 seconds minimal ADB</a>
 - <a href="https://developer.android.com/studio/releases/platform-tools">Android SDK Platform tools</a> 
 - <a href="https://github.com/bkerler/mtkclient">MTK Client by Bkerler</a>
-<p><center>
+
 The platfrom tools need to be placed at C:\adb and for the MTK Client we need to install the <a href="https://www.python.org/downloads/">Python</a> ,<a href="https://git-scm.com/downloads">Git</a> and <a href="https://github.com/daynix/UsbDk/releases/">USB DK</a>. 
-</p></center>
+
 #### 5.2.2. Unlocking the bootloader
