@@ -13,41 +13,17 @@
 <p><center>Our project team consists of three members - Fathma Khatun Mim, Gourob Roy, Md. Arik Rayhan. All three members are students of the Department of Computer Science and Engineering at BAUET. Md. Arik Rayhan is the team leader. Fathma Khatun Mim is the project manager. Gourob Roy is the project coordinator.
 </center></p>
 
-## 5.Project Timeline
-<p><center>Our project timeline is as follows:
-•	Research Phase: 1 month
-•	Development Phase: 3 months
-•	Testing Phase: 1 month
+## 5.Project Steps
+### 5.1. Research Phase
+<p><center>The research phase involves understanding the current state of the art and identifying the requirements of our target users.After completing the research we choose the Nokia 2.2 as our target device. We planed to develop the ROM for children and corporate companies. We also planed to develop the ROM based on Android 11 because thats the lastest version for this phone.</center></p>
 
-Here are the steps to Creating Custom OS for android:
+### 5.2. Development Phase
+#### 5.2.1. Setting up the development environment
+For the OS we used windows 11. We used the following tools to set up the development environment:
+- A Good Computer, Better Network Connection and a Good usb cable
+- <a href="https://xdaforums.com/t/official-tool-windows-adb-fastboot-and-drivers-15-seconds-adb-installer-v1-4-3.2588979/">15 seconds minimal ADB</a>
+- <a href="https://developer.android.com/studio/releases/platform-tools">Android SDK Platform tools</a> 
+- <a href="https://github.com/bkerler/mtkclient">MTK Client by Bkerler</a> 
+The platfrom tools need to be placed at C:\adb and for the MTK Client we need to install the <a href="https://www.python.org/downloads/">Python</a> ,<a href="https://git-scm.com/downloads">Git</a> and <a href="https://github.com/daynix/UsbDk/releases/">USB DK</a>. 
 
-June: (Everyone Has contributed)
-Gather necessary tools and prerequisites:
-    •	A computer with Windows-based and Linux Based operating system (Windows 10 & Ubuntu recommended).
-    •	Android SDK (Software Development Kit) and Android NDK (Native Development Kit).
-    •	Necessary drivers for Nokia 2.2 installed on computer.
-
-July:
-Unlock the bootloader (Md. Arik Rayhan)
-Making the UI on Figma (Fathma Khatun Mim)
-Managing the Git-Repo & Documentation (Gourob Roy)
-
-August:
-Create Custom recovery for Nokia 2.2 (Md. Arik Rayhan)
-Obtain the device-specific source code: (Fathma Khatun Mim)
-Set up the build environment: (Gourob Roy)
-
-September:
-Configure the build: (Gourob Roy)
-Apply customizations: (Fathma Khatun Mim & Md. Arik Rayhan)
-
-October:
-Build the custom ROM (Md. Arik Rayhan)
-Test the custom ROM (Gourob Roy)
-Debug and fix issues (Md. Arik Rayhan & Fathma Khatun Mim)
-
-November:
-Create a flashable package (Everyone)
-Share and support
-</center></p>
-
+#### 5.2.2. Unlocking the bootloader
