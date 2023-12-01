@@ -41,3 +41,14 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 #### 5.2.2. Unlocking the bootloader
 - Step 1: Do a full backup of your device using 
 <a href="https://github.com/mdarikrayhan/IDP/blob/main/Required%20Software/SP_Flash_Tool_v5.1924_Win.zip">SP Flash Tool v5.1924</a>
+
+- Step 2: The firmware for this procedure can be downloaded <a href="https://sourceforge.net/projects/fihsw-mtk/files/WSP/HCTSW_WSP-1680-0-00WW-B01_600WW_9_20191005_huaqin_ZAL1670.full.lzma2.d056631a.7z/download">here</a>
+
+- Step 3: Do backup of of these images from the firmware using altunlock-MT6761_Android_scatter.txt
+  - nvcfg.img
+  - nvram.img
+  - proinfo.img
+  - protect1.img
+  - protect2.img
+
+- Step 4: 
