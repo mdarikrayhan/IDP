@@ -1,0 +1,3 @@
+fastboot --disable-verity  --disable-verification flash vbmeta vbmeta.img 
+fastboot flash boot twrp.img 
+fastboot reboot recovery

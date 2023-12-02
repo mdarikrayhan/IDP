@@ -1,0 +1,3 @@
+fastboot flash boot_a boot_a.img
+
+fastboot flash boot_b boot_b.img

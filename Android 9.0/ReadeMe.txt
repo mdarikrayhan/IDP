@@ -1,0 +1,19 @@
+You don't need to do these steps becasue the files are available at "Android 9.0/2.OEM Unlocked Files"
+
+
+Tutorial: https://xdaforums.com/t/guide-how-to-unlock-the-bootloader-for-nokia-2-2.4244039/
+Video Tutorial: https://youtu.be/OgGfv65wT7U
+
+Note: You only need to do step-1 to step-5 and then follow the below tutorial
+
+Next Tutorial: https://xdaforums.com/t/unofficial-unlocking-the-bootloader-rooting-and-installing-twrp-on-nokia-2-2-with-android-11.4522341/
+
+
+
+
+
+You can get the stock rom without (Boot and NvData) data from this link:
+https://sourceforge.net/projects/fihsw-mtk/files/WSP/HCTSW_WSP-1680-0-00WW-B01_600WW_9_20191005_huaqin_ZAL1670.full.lzma2.d056631a.7z/download
+
+
+You can add the (Boot and NvData) data and make full firmware with IMEI and all data
