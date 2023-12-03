@@ -71,8 +71,18 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
   - Please follow the procedure in <a href="https://xdaforums.com/t/guide-how-to-convert-your-nokia-x5-to-global-nokia-5-1-plus-unbrick-guide.3858253/">this topic</a> to do readback.
 
 - Step 7: Flash the firmware again
-  - Use "MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
-  - Switch to Download tab, and choose format all + download to flash the entire phone with this scatter file: "MT6761_Android_scatter.txt" Once flash complete, disconnect the phone.
+  - Extract the firmware and open the folder, copy the following files to the extracted firmware folder:
+    - nvcfg.img
+    - nvram.img
+    - proinfo.img
+    - protect1.img
+    - protect2.img
+    - <a href="https://github.com/mdarikrayhan/IDP/blob/main/Android%209.0/1.Boot%20and%20NvData/MT6761_Android_scatter_Stock_Rom.txt">MT6761_Android_scatter_Stock_Rom.txt</a>
+  - Open SP Flash Tool v5.1924 and select mode "Format all + Download"
+  - Click on "Choose" and select the scatter file "MT6761_Android_scatter_Stock_Rom.txt" and click on "Download"
+  - Connect the phone in BROM mode
+    - Shut down the phone, and after 5 seconds, press and hold both volume up and down keys (without the power button) and connect the phone to your computer via cable while still holding the volume buttons.
+  - Wait for the flash to complete, and disconnect the phone.
 
 #### 5.2.3. Unlocking the bootloader on (Android 11)
 - Step 1: After the flash is complete on Android 9, boot the phone and update to Android 11 via OTA.
