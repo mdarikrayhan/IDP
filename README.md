@@ -126,3 +126,15 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 #### 5.2.5. Rooting the phone using Magisk
 - Step 1: Download the <a href="https://github.com/topjohnwu/Magisk/releases/">Magisk APK</a> file and install it on your phone.
 
+- Step 2: Copy the partitions we got via MTK Client on your device, launch Magisk app,select Install Magisk, then choose a file, which is gonna be Boot_a. Wait until patching is finished, and after it's done, go into downloads folder and rename it to Boot_a.
+
+- Step 3: After that you can choose Boot_b to be patched, and after it's done, rename it to Boot_b too
+
+- Step 4: Copy the patched Boot_a and Boot_b to your PC, and copy them to the folder where you have the twrp.img and vbmeta.img files.
+
+- Step 5: Open command prompt and type the following commands in the command prompt window and hit Enter after each line:
+  - fastboot flash boot_a Boot_a.img
+  - fastboot flash boot_b Boot_b.img
+  - fastboot reboot
+
+- Step 6: Your phone will now reboot into the system. Open Magisk Manager app and check if Magisk is installed and the version matches the one you downloaded.
