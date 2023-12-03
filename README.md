@@ -92,6 +92,9 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
   - click on Read partitions button in the right side, and choose a location to save these partitions
 
 - Step 5: Unlock the bootloader
-  -After everything is backed up, go to "Write partitions" tab, and find sec1 and seccfg, click on "set", browse and select the respective unlocked partitions we got in Step 6 of 5.2.2. (you may need to change their extension from .img to .bin for them to show up).
+  - After everything is backed up, go to "Write partitions" tab, and find sec1 and seccfg, click on "set", browse and select the respective unlocked partitions we got in Step 6 of 5.2.2. (you may need to change their extension from .img to .bin for them to show up).
   - Click on "Write partitions", and done! You have unlocked your OEM on Android 11!! and if everything is done correctly, you'll see
     - Orange state Your device is unlocked and cannot be trusted Your device will boot in 5 seconds...
+  - Now you can reboot your phone and enjoy your unlocked bootloader!
+
+#### 5.2.4. Installing the TWPR recovery
