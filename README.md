@@ -39,7 +39,7 @@ For the OS we used windows 11. We used the following tools to set up the develop
 
 The platfrom tools need to be placed at C:\adb and for the MTK Client we need to install the <a href="https://www.python.org/downloads/">Python</a> ,<a href="https://git-scm.com/downloads">Git</a> and <a href="https://github.com/daynix/UsbDk/releases/">USB DK</a>. 
 
-#### 5.2.2. Unlocking the bootloader
+#### 5.2.2. Unlocking the bootloader on (Android 9)
 - Step 1: Do a full backup of your device using 
 <a href="https://github.com/mdarikrayhan/IDP/blob/main/Required%20Software/SP_Flash_Tool_v5.1924_Win.zip">SP Flash Tool v5.1924</a>
 
@@ -74,4 +74,24 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
   - Use "MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
   - Switch to Download tab, and choose format all + download to flash the entire phone with this scatter file: "MT6761_Android_scatter.txt" Once flash complete, disconnect the phone.
 
+#### 5.2.3. Unlocking the bootloader on (Android 11)
+- Step 1: After the flash is complete on Android 9, boot the phone and update to Android 11 via OTA.
 
+- Step 2: Open MTK Client folder and open a CMD window there by typing in cmd in the address bar. then write python mtk_gui and hit enter.
+
+- Step 3: Connect the phone in BROM mode
+  - Shut down the phone, and after 5 seconds, press and hold both volume up and down keys (without the power button) and connect the phone to your computer via cable while still holding the volume buttons.
+  - The phone will be failed at first try, so disconnect the phone and repeat the procedure again. The phone will be detected as MediaTek USB Port (COMx) in Device Manager.
+
+- Step 4: Read partitions
+  - Click on Read Partitions tab and select the following partitions:
+    - Boot_a
+    - Boot_b 
+    - sec1 
+    - seccfg
+  - click on Read partitions button in the right side, and choose a location to save these partitions
+
+- Step 5: Unlock the bootloader
+  -After everything is backed up, go to "Write partitions" tab, and find sec1 and seccfg, click on "set", browse and select the respective unlocked partitions we got in Step 6 of 5.2.2. (you may need to change their extension from .img to .bin for them to show up).
+  - Click on "Write partitions", and done! You have unlocked your OEM on Android 11!! and if everything is done correctly, you'll see
+    - Orange state Your device is unlocked and cannot be trusted Your device will boot in 5 seconds...
