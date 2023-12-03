@@ -54,8 +54,7 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 Please follow the procedure in <a href="https://xdaforums.com/t/guide-how-to-convert-your-nokia-x5-to-global-nokia-5-1-plus-unbrick-guide.3858253/">this topic</a> to do readback:
 
 - Step 4: Format all + Download to flash the firmware with altunlock scatter file 
-
-Switch to Download tab, and choose format all + download to flash the entire phone with this scatter file: "altunlock-MT6761_Android_scatter.txt" Once flash complete, disconnect the phone.
+          Switch to Download tab, and choose format all + download to flash the entire phone with this scatter file: "altunlock-MT6761_Android_scatter.txt" Once flash complete, disconnect the phone.
 
 - Step 5: Bootloader unlock
 
