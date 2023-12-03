@@ -99,7 +99,7 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
     - Boot_b 
     - sec1 
     - seccfg
-  - click on Read partitions button in the right side, and choose a location to save these partitions
+  - Click on Read partitions button in the right side, and choose a location to save these partitions
 
 - Step 5: Unlock the bootloader
   - After everything is backed up, go to "Write partitions" tab, and find sec1 and seccfg, click on "set", browse and select the respective unlocked partitions we got in Step 6 of 5.2.2. (you may need to change their extension from .img to .bin for them to show up).
@@ -110,7 +110,7 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 #### 5.2.4. Installing the TWPR recovery
 - Step 1: Download the <a href="https://github.com/mdarikrayhan/IDP/blob/main/Android%2011.0/TWRP/1.Installl%20on%20Android%2011.0/twrp.img">twrp.img</a> and <a href="https://github.com/mdarikrayhan/IDP/blob/main/Android%2011.0/TWRP/1.Installl%20on%20Android%2011.0/vbmeta.img">vbmeta.img</a> files.
 - Step 2: Extract the <a href="https://github.com/mdarikrayhan/IDP/blob/main/Required%20Software/platform-tools_r34.0.5-windows.zip">platform-tools_r34.0.5-windows.zip</a> and copy the twrp.img and vbmeta.img files to the extracted folder.
-- Step 3: power off your phone, then boot into fastboot by holding Volume down + Power for a few seconds, until it says FASTBOOT MODE
+- Step 3: Power off your phone, then boot into fastboot by holding Volume down + Power for a few seconds, until it says FASTBOOT MODE
 
 - Step 4: Connect your phone to your PC via USB cable
 
