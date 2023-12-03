@@ -46,12 +46,12 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 - Step 2: The firmware for this procedure can be downloaded <a href="https://sourceforge.net/projects/fihsw-mtk/files/WSP/HCTSW_WSP-1680-0-00WW-B01_600WW_9_20191005_huaqin_ZAL1670.full.lzma2.d056631a.7z/download">here</a>.
 
 - Step 3: Do backup of of these images
-  - use "altunlock-MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
     - nvcfg.img
     - nvram.img
     - proinfo.img
     - protect1.img
     - protect2.img
+  - use "altunlock-MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
   - Please follow the procedure in <a href="https://xdaforums.com/t/guide-how-to-convert-your-nokia-x5-to-global-nokia-5-1-plus-unbrick-guide.3858253/">this topic</a> to do readback.
 
 - Step 4: Format all + Download to flash the firmware with altunlock scatter file 
