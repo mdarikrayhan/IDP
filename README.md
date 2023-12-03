@@ -57,5 +57,11 @@ Please follow the procedure in <a href="https://xdaforums.com/t/guide-how-to-con
   - Switch to Download tab, and choose format all + download to flash the entire phone with this scatter file: "altunlock-MT6761_Android_scatter.txt" Once flash complete, disconnect the phone.
 
 - Step 5: Bootloader unlock
+  - Press and hold volume down key and connect to PC - keep that condition for around 12 seconds then the phone will boot to Fastboot mode.
+  - Open command prompt and type the following command:
+    - fastboot flashing lock_critical
+    - fastboot oem unlock
+  - Look at your phone and press volume up to confirm unlock. Once done, disconnect the phone and remove the battery, wait 5 seconds and place the battery back.
+
 
 
