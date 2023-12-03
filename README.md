@@ -32,7 +32,8 @@ All three members are students of the Department of Computer Science and Enginee
 #### 5.2.1. Setting up the development environment
 For the OS we used windows 11. We used the following tools to set up the development environment:
 - A Good Computer, Better Network Connection and a Good usb cable
-- <a href="https://xdaforums.com/t/official-tool-windows-adb-fastboot-and-drivers-15-seconds-adb-installer-v1-4-3.2588979/">15 seconds minimal ADB</a>
+- <a href="https://github.com/mdarikrayhan/IDP/blob/main/Driver/15_Second_ADB_Installer_v1.5.6.zip">15 seconds minimal ADB</a>
+- <a href="https://github.com/mdarikrayhan/IDP/blob/main/Driver/Mediatek_Driver_Auto_Installer_v1.1352.zip">Mediatek Driver Auto Installer</a>
 - <a href="https://developer.android.com/studio/releases/platform-tools">Android SDK Platform tools</a> 
 - <a href="https://github.com/bkerler/mtkclient">MTK Client by Bkerler</a>
 
@@ -42,15 +43,20 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
 - Step 1: Do a full backup of your device using 
 <a href="https://github.com/mdarikrayhan/IDP/blob/main/Required%20Software/SP_Flash_Tool_v5.1924_Win.zip">SP Flash Tool v5.1924</a>
 
-- Step 2: The firmware for this procedure can be downloaded <a href="https://sourceforge.net/projects/fihsw-mtk/files/WSP/HCTSW_WSP-1680-0-00WW-B01_600WW_9_20191005_huaqin_ZAL1670.full.lzma2.d056631a.7z/download">here</a>
+- Step 2: The firmware for this procedure can be downloaded <a href="https://sourceforge.net/projects/fihsw-mtk/files/WSP/HCTSW_WSP-1680-0-00WW-B01_600WW_9_20191005_huaqin_ZAL1670.full.lzma2.d056631a.7z/download">here</a>.SHA256: D056631A8A795A06795B3A4E5F334DBF9B55C3C71269831F8E7926FA3ABA5637
 
-- Step 3: Do backup of of these images from the phone using "altunlock-MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
+- Step 3: Do backup of of these 5 images from the phone using "altunlock-MT6761_Android_scatter.txt" and SP Flash Tool v5.1924
   - nvcfg.img
   - nvram.img
   - proinfo.img
   - protect1.img
   - protect2.img
+Please follow the procedure in <a href="https://xdaforums.com/t/guide-how-to-convert-your-nokia-x5-to-global-nokia-5-1-plus-unbrick-guide.3858253/">this topic</a> to do readback:
 
-- Step 4: 
+- Step 4: Format all + Download to flash the firmware with altunlock scatter file 
+
+Switch to Download tab, and choose format all + download to flash the entire phone with this scatter file: "altunlock-MT6761_Android_scatter.txt" Once flash complete, disconnect the phone.
+
+- Step 5: Bootloader unlock
 
 
