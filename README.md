@@ -1,4 +1,4 @@
-# Integrated Design Project / Capstone Project
+# Integrated Design Project
 
 ## 1.Project Description
 <p><center>In today's digital age, mobile devices have become an integral part of our lives. They enable us to stay connected, access information, and perform various tasks on the go. However, with the increasing reliance on mobile devices, corporate organizations and parents are faced with the challenge of ensuring a secure and controlled mobile environment. This requires addressing concerns such as unauthorized app installations, unrestricted website access, privacy risks associated with bloatware and Google services, and the need for effective device management. To address these challenges, we have undertaken the development of a custom ROM specifically tailored for corporate companies and parents. This custom ROM aims to provide enhanced control mechanisms and prioritize privacy and security, empowering organizations and parents to create a safe and productive digital ecosystem.</center></p>
