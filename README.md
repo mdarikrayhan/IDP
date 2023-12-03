@@ -108,3 +108,21 @@ The platfrom tools need to be placed at C:\adb and for the MTK Client we need to
   - Now you can reboot your phone and enjoy your unlocked bootloader!
 
 #### 5.2.4. Installing the TWPR recovery
+- Step 1: Download the <a href="https://github.com/mdarikrayhan/IDP/blob/main/Android%2011.0/TWRP/1.Installl%20on%20Android%2011.0/twrp.img">twrp.img</a> and <a href="https://github.com/mdarikrayhan/IDP/blob/main/Android%2011.0/TWRP/1.Installl%20on%20Android%2011.0/vbmeta.img">vbmeta.img</a> files.
+- Step 2: Extract the <a href="https://github.com/mdarikrayhan/IDP/blob/main/Required%20Software/platform-tools_r34.0.5-windows.zip">platform-tools_r34.0.5-windows.zip</a> and copy the twrp.img and vbmeta.img files to the extracted folder.
+- Step 3: power off your phone, then boot into fastboot by holding Volume down + Power for a few seconds, until it says FASTBOOT MODE
+
+- Step 4: Connect your phone to your PC via USB cable
+
+- Step 5: Open a command prompt in the folder where you have the twrp.img and vbmeta.img files. To do that, hold shift + right click on any empty white space inside the folder, and select Open command window here from the context menu.
+
+- Step 6: Type the following commands in the command prompt window and hit Enter after each line:
+  - fastboot --disable-verity  --disable-verification flash vbmeta vbmeta.img 
+  - fastboot flash boot twrp.img 
+  - fastboot reboot recovery
+
+- Step 7: Your phone will now reboot into TWRP recovery. If you see a prompt asking you to swipe to allow modifications, swipe it to allow modifications. We will root the phone using Magisk, which is a systemless method and does not modify the system partition.
+
+#### 5.2.5. Rooting the phone using Magisk
+- Step 1: Download the <a href="https://github.com/topjohnwu/Magisk/releases/">Magisk APK</a> file and install it on your phone.
+
